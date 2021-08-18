@@ -1,0 +1,28 @@
+Button {
+  border-radius: 22px;
+  border: none;
+  padding: 14px 28px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0 8px;
+  letter-spacing: 0.5px;
+  background-color: #2acfcf;
+  color: white;
+}
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+h2 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 30px;
+}

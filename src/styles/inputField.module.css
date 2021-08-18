@@ -1,0 +1,45 @@
+.mainDiv {
+  background-color: #35323e;
+  width: 70%;
+  height: 90px;
+  margin: 6% 12%;
+  border-radius: 15px;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  align-items: center;
+}
+.mainDiv input {
+  width: 70%;
+  margin: 20px;
+  padding: 12px;
+  border-radius: 13px;
+}
+.shortIt {
+  border-radius: 22px;
+  border: none;
+  padding: 5px 8px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  height: 55px;
+  width: 25%;
+  background-color: #2acfcf;
+  color: white;
+}
+@media (max-width: 675px) {
+  .mainDiv {
+    width: 80%;
+  }
+  .shortIt {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .mainDiv input {
+    margin: 10px;
+    padding: 12px;
+    width: 90%;
+  }
+}

@@ -1,0 +1,122 @@
+.mainDiv {
+  background-color: #dad5ed;
+  padding: 6%;
+}
+.discription {
+  text-align: center;
+  padding: 20px 40px;
+  color: gray;
+  font-weight: 500;
+}
+.logoDiv {
+  position: absolute;
+  background-color: #3b3054;
+  border-radius: 50%;
+  box-sizing: border-box;
+  width: 70px;
+  height: 70px;
+  bottom: 220px;
+  left: 30px;
+}
+.infoDiv {
+  background-color: white;
+  width: 300px;
+  padding: 40px;
+  color: grey;
+  text-align: center;
+  box-sizing: border-box;
+  height: 250px;
+}
+svg {
+  height: 40px;
+  width: 40px;
+  padding: 14px;
+}
+.blockDiv {
+  width: 100%;
+}
+.flexDiv {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 3% 6%;
+  box-sizing: border-box;
+  margin-top: 40px;
+  position: relative;
+}
+.statDiv {
+  position: relative;
+  margin: 20px;
+}
+h3 {
+  color: black;
+  text-align: left;
+}
+.infoDiv p {
+  font-size: 14px;
+  font-weight: 500;
+  text-align: left;
+}
+.infoDiv {
+  box-sizing: border-box;
+}
+hr {
+  background-color: #2acfcf;
+  position: absolute;
+  height: 8px;
+  bottom: 50%;
+  width: 62%;
+  margin-left: 60px;
+  border: none;
+}
+.heightOne {
+  margin-top: 40px;
+}
+.heightTwo {
+  margin-top: 80px;
+}
+.heightZero {
+  margin-top: 0;
+}
+@media (max-width: 375px) {
+  .flexDiv {
+    display: block;
+    padding: 0 2%;
+  }
+  .statDiv {
+    margin-top: 60px;
+    text-align: center;
+  }
+  .mainDiv {
+    padding: 0 4px;
+  }
+}
+@media (max-width: 675px) {
+  .flexDiv {
+    display: block;
+    padding: 0 2%;
+  }
+  .statDiv {
+    margin-top: 60px;
+    text-align: center;
+  }
+  .mainDiv {
+    padding: 6% 12%;
+  }
+  hr {
+    background-color: #2acfcf;
+    position: absolute;
+    height: 80%;
+    bottom: 50px;
+    width: 8px;
+    left: 100px;
+    margin-top: 180px;
+    border: none;
+  }
+  .heightTwo {
+    margin-top: 0;
+  }
+  .heightOne {
+    margin-top: 0;
+  }
+}

@@ -1,0 +1,59 @@
+.mainConatiner {
+  display: flex;
+  width: 100%;
+  padding: 6%;
+  box-sizing: border-box;
+}
+.Conatiner {
+  width: 50%;
+  margin: 0;
+  padding: 28px;
+}
+.Conatiner div {
+  width: 50%;
+  height: 100%;
+}
+
+.mainHeading {
+  font-size: 52px;
+  font-weight: 800;
+}
+.subHeading {
+  font-size: 18px;
+  color: #9e9aa7;
+}
+.signup {
+  background-color: #2acfcf;
+  color: white;
+}
+
+@media (max-width: 375px) {
+  .mainConatiner {
+    display: block;
+  }
+  .Conatiner {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 18px;
+  }
+}
+@media (max-width: 675px) {
+  .mainConatiner {
+    display: block;
+  }
+  .Conatiner {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  .mainHeading {
+    font-size: 45px;
+    font-weight: 700;
+  }
+  img {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+}
